@@ -17,10 +17,12 @@
     const start = new Date(2026,0,0), end = new Date(2027,0,0), today = new Date();
     const percentage_so_far = Math.round(((today-start )/(end-start)) * 100)
     document.getElementById("percent_through_2026").innerHTML = (percentage_so_far + "%");
-    document.getElementById("progress_bar").progress = <progress value=progress_so_far max="100"
 </script>
 
-
+<!--TODO: add charm.land/charmbracelet style loading bar, preferably lib-less? idk how to do a progres bar yet though with document.getelementbyid to quote the variable
+TODO: get a nicer font
+TODO: center it all
+TODO: custom themes or just light/dark-->
 
 
 
