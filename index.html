@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Let's Go</title>
+</head>
+<body>
+<p>I'm tired of doing nothing</p>
+<p>Maybe you are too</p>
+<p id="percent_through_2026"></p>
+
+
+</body>
+</html>
+
+<script>
+    const start = new Date(2026,0,0), end = new Date(2027,0,0), today = new Date();
+    const percentage_so_far = Math.round(((today-start )/(end-start)) * 100)
+    document.getElementById("percent_through_2026").innerHTML = ("We're " + percentage_so_far + "% through 2026");
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
